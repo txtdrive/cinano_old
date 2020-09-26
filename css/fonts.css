@@ -1,0 +1,82 @@
+div.active p.one{ 
+　opacity:0;
+  animation-name:lv01;
+  animation-duration:1s; 
+  animation-fill-mode: forwards;
+}
+
+.active p.two{ 
+　opacity:0;
+  animation-name:lv01;
+  animation-duration:3s; 
+  animation-fill-mode: forwards;
+}
+
+.active p.cinano{ 
+　opacity:0;
+  animation-name:cinano;
+  animation-duration:5s; 
+  animation-fill-mode: forwards;
+}
+
+.active p.policy{ 
+　opacity:0;
+  animation-name:policy;
+  animation-duration:6s; 
+  animation-fill-mode: forwards;
+}
+
+.active p.fadein {
+  opacity: 0;
+  animation: fadein 3s ease forwards;
+}
+
+.active p.txt01 {animation-delay: 1s;}
+
+@keyframes lv01{
+0% {
+ opacity: 0;
+ transform: translateY(1rem);
+}
+ 100% {
+ opacity:1;
+ transform: translateY(-1rem);
+ } 
+}
+
+@keyframes lv02{
+0% {
+ opacity: 0;
+ transform: translateY(1rem);
+}
+ 100% {
+ opacity:1;
+ transform: translateY(-1rem);
+ } 
+}
+
+@keyframes cinano{
+0% {
+ opacity: 0;
+ transform: translateX(1.5rem);
+}
+ 100% {
+ opacity:1;
+ transform: translateX(-1.5rem);
+ } 
+}
+
+@keyframes policy{
+0% {
+ opacity: 0;
+ transform: translateX(1rem);
+}
+ 100% {
+ opacity:1;
+ transform: translateX(-1rem);
+ } 
+}
+
+@keyframes fadein{
+    100% {  opacity: 1;}
+}

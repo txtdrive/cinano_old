@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 30);
+}
+
+body{
+	font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+p {
+  font-size:0.6rem;
+  line-height: 1.2rem;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15vw 0 15vw;
+}
+
+.gauss{
+  background-color: rgba( 255, 255, 255, 0.2);
+  padding: 0.3rem;
+}
+
+em{
+  font-style: normal;
+  text-decoration: none;
+  color: #003778;
+}
+
+span{
+  color: #9F0019;
+}
+
+span.ex{
+  color: #FF0019;
+}
+
+.lv1{
+  background-image: url(../img/1355832_m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.lv2{
+  background-image: url(../img/1599891338759.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.lv3{
+  background-image: url(../img/1599924459438.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.lv4{
+  background-image: url(../img/1599924458237.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.lv5{
+  background-image: url(../img/20200912_143752.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.lv1 p{
+  color: #f5f5f5;
+  font-size: 3vw;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+.textleft{
+	text-align: left;
+}
+
+.textright{
+	text-align: right;
+}
+
+.spacer{
+  padding-top: 10vh;
+}
+
+@media screen and (max-width: 500px) { 
+.lv2{
+  background-image: url(../img/1599891338759.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% top;
+  background-size: cover;
+}
+
+.lv3{
+  background-image: url(../img/1599924459438.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 82%;
+  background-size: cover;
+}
+
+.lv4{
+  background-image: url(../img/1599924458237.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 35%;
+  background-size: cover;
+}
+
+p {
+  font-size:0.7rem;
+  line-height: 3rem;
+}
+
+.page{
+  padding: 0 10vw 0 7vw;
+}
+
+}
+
+@media screen and (orientation: landscape) {
+p{
+  font-size:0.6rem;
+  line-height: normal;
+}
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}

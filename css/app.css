@@ -160,6 +160,10 @@ p {
   line-height: 3rem;
 }
 
+span{
+  color: #FF0019;
+}
+
 .page{
   padding: 0 10vw 0 7vw;
 }

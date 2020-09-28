@@ -40,11 +40,11 @@ em{
   color: #003778;
 }
 
-span{
+span.ex{
   color: #9F0019;
 }
 
-span.ex{
+span{
   color: #FF0019;
 }
 
@@ -158,6 +158,10 @@ span.ex{
 p {
   font-size:0.7rem;
   line-height: 3rem;
+}
+
+span.ex{
+  color: #9F0019;
 }
 
 span{
